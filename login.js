@@ -49,4 +49,5 @@ lemail.onclick=()=>{
 lpass.onclick=()=>{
   verifypss.style.backgroundColor="#004badcf";
   verifypss.innerHTML = "verify password";
+  btn.style.display = "none";
 }
