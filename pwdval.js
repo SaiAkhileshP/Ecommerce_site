@@ -76,7 +76,7 @@ fun = () =>{
   //for login ------
   localStorage.setItem("semail", email.value);
   localStorage.setItem("spassword", pass.value);
-  if(fname.value!=''){
+  if(fname.value!==''){
   localStorage.setItem("username",fname.value);
   }
   else{
